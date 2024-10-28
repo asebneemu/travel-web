@@ -1,4 +1,5 @@
 import GradientLine from "../components/GradientLine";
+import HomeLogo from "../components/HomeLogo";
 import Line from "../components/Line";
 import Navbar from "../components/Navbar";
 
@@ -8,6 +9,7 @@ export default function HomePage() {
             <Line />
             <GradientLine />
             <Navbar />
+            <HomeLogo />
         </div>
     )
 }
